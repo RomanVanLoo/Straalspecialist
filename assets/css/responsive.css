@@ -335,6 +335,11 @@
 	.slider-txt-container{
 		padding-left: 15px;
 		padding-right: 15px;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-bottom: 30%;
 	}
 
 }

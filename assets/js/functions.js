@@ -6,7 +6,7 @@ jQuery(window).on('scroll', function (){
   // } else {
   //   jQuery('#main-menu').removeClass('menu-bg-overlay');
   // }
-  if (jQuery(window).scrollTop() > 500){
+  if (jQuery(window).scrollTop() > (window.innerHeight - 120)){
     document.getElementById('main-menu').style.backgroundColor = "#EDF0F1";
     document.querySelectorAll('.navbar-links').forEach(el => el.classList.add('black-font'));
     // jQuery('#main-menu').addClass('white-bg');
