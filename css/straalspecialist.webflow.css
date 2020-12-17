@@ -265,6 +265,9 @@ a:hover {
 
 .nav-link {
   padding: 10px 14px;
+  border-style: none;
+  border-width: 2px;
+  border-color: #fff;
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
   color: #fff;
@@ -282,6 +285,10 @@ a:hover {
 
 .nav-link.last {
   margin-right: 10px;
+}
+
+.nav-link.contact-link {
+  border-style: none;
 }
 
 .div-block {
@@ -614,7 +621,10 @@ a:hover {
 .footer {
   position: relative;
   z-index: 1;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 30px 80px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -1122,10 +1132,7 @@ a:hover {
 
 .social-media-links {
   position: static;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
 }
 
 .social-media-link {
@@ -1367,6 +1374,17 @@ a:hover {
   -ms-flex-align: center;
   align-items: center;
   background-color: #09090a;
+}
+
+.contact-link {
+  padding: 4px 15px;
+  border: 2px solid #fff;
+  background-color: transparent;
+}
+
+.contact-link:hover {
+  border-color: #e1b788;
+  background-color: transparent;
 }
 
 @media screen and (max-width: 991px) {
