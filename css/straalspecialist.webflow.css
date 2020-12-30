@@ -334,17 +334,17 @@ a:hover {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-image: url('../images/IMG-20190412-WA0024.jpg');
+  background-image: url('../images/zandstralen-tafel2.jpg');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slider-image._2 {
-  background-image: url('../images/IMG_20201014_113935.jpg');
+  background-image: url('../images/zandstralen-bank2.jpg');
 }
 
 .slider-image._3 {
-  background-image: url('../images/IMG_20201015_103704.jpg');
+  background-image: url('../images/zandstralen-tafel4.jpg');
 }
 
 .slide-nav {
