@@ -1,0 +1,14 @@
+.social-link {
+  color: white;
+}
+
+.social-link:hover {
+  color: #e1b788;
+  text-decoration: none;
+  cursor: pointer;
+ }
+
+ .social-link i {
+  margin-left: 10px;
+  margin-right: 10px;
+ }
