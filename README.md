@@ -1,5 +1,5 @@
 # Straalspecialist
-Static Website made for a local Belgian Sandblaster
+Static Website made for a local Belgian Sandblaster (not online anymore)
 
 Hosting => Github Pages
 
